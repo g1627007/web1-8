@@ -31,6 +31,12 @@ body{
   color: black;
 }
 
+#gnav a:selected{
+  background: white;
+  color: darkgreen;
+  font-weight: bold; /*太字*/
+}
+
 #gnav ul{
   overflow: hidden;
 }
