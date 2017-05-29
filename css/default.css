@@ -17,6 +17,20 @@ body{
   content:""; /*最初だけcontentを消す*/
 }
 
+#gnav a{
+  display: block; /*aのブロック化*/
+  padding: 10px 0; /*上下に空間を確保*/
+  text-align: center; /*中央ぞろえ*/
+  text-decoration: none; /*下線を消す*/
+  background: darkgreen;
+  color: white;
+}
+
+#gnav a:hover{
+  background: lightgreen;
+  color: black;
+}
+
 #gnav ul{
   overflow: hidden;
 }
