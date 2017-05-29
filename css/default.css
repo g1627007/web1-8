@@ -57,7 +57,7 @@ div.img#faq{     background-position: 0 -184px;}
   color: black;
 }
 
-#gnav a:selected{
+#gnav a.selected{
   background: white;
   color: darkgreen;
   font-weight: bold; /*太字*/
